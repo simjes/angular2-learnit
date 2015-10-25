@@ -1,0 +1,31 @@
+{
+  "name": "angular2-learnit",
+  "version": "1.0.0",
+  "description": "New or alternative webpage design with Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simjes/angular2-learnit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simjes/angular2-learnit/issues"
+  },
+  "homepage": "https://github.com/simjes/angular2-learnit#readme",
+  "dependencies": {
+    "angular2": "2.0.0-alpha.44",
+    "systemjs": "0.19.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
+  }
+}
