@@ -1,40 +1,29 @@
 $primary-text-color: #FFFFFF;
 $primary-design-color: #009688;
 
-#header-style {
-  background-color: $primary-design-color;
-  color: $primary-text-color;
-  text-align: center;
-  padding: 10px 0px; 
-  font-size: 20px;
-}
-
-ul {
-  list-style-type: none;
-  margin-top: 10px 0px;
-  padding: 0;
-  
-  li {
-    display: inline;
-    
-    a {
-      text-decoration: none;
-      color: white;
-    }
-  }   
-}
-
-
-
-
 .home {
-  background-color: grey;
+  background-image: url('../img/stock-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 3em;
   text-align: center;
   color: $primary-text-color;
   
+  button {
+    width: 200px;
+    height: 50px;
+  }
 }
 
 .color-button {
   background-color: $primary-design-color; 
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
 }

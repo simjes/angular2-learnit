@@ -1,27 +1,22 @@
-#header-style {
-  background-color: #009688;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 10px 0px;
-  font-size: 20px; }
-
-ul {
-  list-style-type: none;
-  margin-top: 10px 0px;
-  padding: 0; }
-  ul li {
-    display: inline; }
-    ul li a {
-      text-decoration: none;
-      color: white; }
-
 .home {
-  background-color: grey;
+  background-image: url("../img/stock-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 3em;
   text-align: center;
   color: #FFFFFF; }
+  .home button {
+    width: 200px;
+    height: 50px; }
 
 .color-button {
   background-color: #009688; }
+
+.navbar.center .navbar-inner {
+  text-align: center; }
+
+.navbar.center .navbar-inner .nav {
+  display: inline-block;
+  float: none; }
 
 /*# sourceMappingURL=style.css.map */
