@@ -1,3 +1,19 @@
+.navbar-brand {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  margin: auto; }
 
+.navbar-nav {
+  width: 100%;
+  text-align: center; }
+  .navbar-nav li {
+    float: none;
+    display: inline-block; }
+
+.home {
+  background-color: red;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
