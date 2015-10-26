@@ -3,9 +3,7 @@
 
 <head>
     <title>simjes</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material-fullpalette.min.css" rel='stylesheet'
-    type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/0.11.4/angular-material.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="style/style.css" rel="stylesheet">
 
@@ -13,7 +11,6 @@
 	<script src="https://code.angularjs.org/tools/system.js"></script>
 	<script src="https://code.angularjs.org/tools/typescript.js"></script>
 	<script src="https://code.angularjs.org/2.0.0-alpha.44/angular2.dev.js"></script> -->
-    <script src="../lib/traceur-runtime.js"></script>
     <script src="../node_modules/systemjs/dist/system.src.js"></script>
     <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
     <script src="../lib/typescript.js"></script>
@@ -27,14 +24,26 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-material-blue-grey" role="navigation">
-        <a class="navbar-brand" href="#">SIMJES</a>
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="#">HOME</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">ABOUT</a></li>
-        </ul>
-    </nav>
+    <header>
+        <div id="header-style">
+            <div>
+                SIMJES
+            </div>
+            <!-- temp navbar -->
+            <div>
+                <ul>
+                    <li><a href="#/home">Home</a></li>
+                    <li><a href="#/portfolio">Portfolio</a></li>
+                    <li><a href="#/about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- <md-tabs class="tst">
+        <md-tab label="Tab #1"></md-tab>
+        <md-tab label="Tab #2"></md-tab>
+        <md-tab label="Tab #3"></md-tab>
+    </md-tabs> -->
     <my-app>Loading...</my-app>
     <footer>
 

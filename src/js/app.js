@@ -19,7 +19,7 @@ var App = (function () {
             selector: 'my-app'
         }),
         angular2_1.View({
-            template: '<h1>My SECOND Angular 2 app</h1>'
+            templateUrl: 'template/home.html'
         }), 
         __metadata('design:paramtypes', [])
     ], App);
