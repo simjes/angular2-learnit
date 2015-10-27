@@ -3,7 +3,7 @@ import {Component, View, bootstrap, bind} from 'angular2/angular2';
 import {Router, RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router';
 import {Location, LocationStrategy, HashLocationStrategy} from 'angular2/router';
 import {Home} from './home';
-//import {Portfolio} from './portfolio';
+import {Portfolio} from './portfolio'
 
 
 @Component({
@@ -20,7 +20,7 @@ import {Home} from './home';
         <div class="navbar-collapse collapse navbar-responsive-collapse navbar-inner">
             <ul class="nav navbar-nav">
                 <li class="active"><a [router-link]="['/Home']">HOME</a></li>
-                <li><a href="">PORTFOLIO</a></li>
+                <li><a [router-link]="['/Portfolio']">PORTFOLIO</a></li>
                 <li><a href="">CONTACT</a></li>
             </ul>
         </div>
@@ -33,7 +33,8 @@ import {Home} from './home';
 })
 @RouteConfig([
     { path: '/', redirectTo: '/Home' },
-    { path: '/Home', component: Home, as: 'Home' }
+    { path: '/Home', component: Home, as: 'Home' },
+    { path: '/Portfolio', component: Portfolio, as: 'Portfolio' }
 ])
 
 export class App {
