@@ -15,6 +15,7 @@ var router_1 = require('angular2/router');
 var router_2 = require('angular2/router');
 var home_1 = require('./home');
 var portfolio_1 = require('./portfolio');
+var contact_1 = require('./contact');
 var App = (function () {
     function App() {
     }
@@ -23,13 +24,14 @@ var App = (function () {
             selector: 'my-app'
         }),
         angular2_1.View({
-            template: "\n    <nav class=\"navbar navbar-fixed-top navbar-material-teal shadow-z-1 center\">\n        <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-responsive-collapse\">\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n        </button>\n        <div class=\"navbar-collapse collapse navbar-responsive-collapse navbar-inner\">\n            <ul class=\"nav navbar-nav\">\n                <li class=\"active\"><a [router-link]=\"['/Home']\">HOME</a></li>\n                <li><a [router-link]=\"['/Portfolio']\">PORTFOLIO</a></li>\n                <li><a href=\"\">CONTACT</a></li>\n            </ul>\n        </div>\n    </nav>\n    <router-outlet></router-outlet>\n    <footer class=\"navbar navbar-fixed-bottom\">\n        <p>&copy; Simon Jespersen 2015</p>\n    </footer>",
+            template: "\n    <nav class=\"navbar navbar-fixed-top navbar-material-teal shadow-z-1 center\">\n        <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-responsive-collapse\">\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n        </button>\n        <div class=\"navbar-collapse collapse navbar-responsive-collapse navbar-inner\">\n            <ul class=\"nav navbar-nav\">\n                <li class=\"active\"><a [router-link]=\"['/Home']\">HOME</a></li>\n                <li><a [router-link]=\"['/Portfolio']\">PORTFOLIO</a></li>\n                <li><a [router-link]=\"['/Contact']\">CONTACT</a></li>\n            </ul>\n        </div>\n    </nav>\n    <router-outlet></router-outlet>\n    <footer class=\"navbar navbar-fixed-bottom\">\n        <p>&copy; Simon Jespersen 2015</p>\n    </footer>",
             directives: [router_1.ROUTER_DIRECTIVES]
         }),
         router_1.RouteConfig([
             { path: '/', redirectTo: '/Home' },
             { path: '/Home', component: home_1.Home, as: 'Home' },
-            { path: '/Portfolio', component: portfolio_1.Portfolio, as: 'Portfolio' }
+            { path: '/Portfolio', component: portfolio_1.Portfolio, as: 'Portfolio' },
+            { path: '/Contact', component: contact_1.Contact, as: 'Contact' }
         ]), 
         __metadata('design:paramtypes', [])
     ], App);

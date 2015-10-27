@@ -4,6 +4,7 @@ import {Router, RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2
 import {Location, LocationStrategy, HashLocationStrategy} from 'angular2/router';
 import {Home} from './home';
 import {Portfolio} from './portfolio'
+import {Contact} from './contact'
 
 
 @Component({
@@ -21,7 +22,7 @@ import {Portfolio} from './portfolio'
             <ul class="nav navbar-nav">
                 <li class="active"><a [router-link]="['/Home']">HOME</a></li>
                 <li><a [router-link]="['/Portfolio']">PORTFOLIO</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a [router-link]="['/Contact']">CONTACT</a></li>
             </ul>
         </div>
     </nav>
@@ -34,7 +35,8 @@ import {Portfolio} from './portfolio'
 @RouteConfig([
     { path: '/', redirectTo: '/Home' },
     { path: '/Home', component: Home, as: 'Home' },
-    { path: '/Portfolio', component: Portfolio, as: 'Portfolio' }
+    { path: '/Portfolio', component: Portfolio, as: 'Portfolio' },
+    { path: '/Contact', component: Contact, as: 'Contact' }
 ])
 
 export class App {

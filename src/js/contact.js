@@ -10,19 +10,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var angular2_1 = require('angular2/angular2');
-var Home = (function () {
-    function Home() {
+var Contact = (function () {
+    function Contact() {
     }
-    Home = __decorate([
+    Contact = __decorate([
         angular2_1.Component({
-            selector: 'home'
+            selector: 'contact'
         }),
         angular2_1.View({
-            template: "\n    <div class=\"home\">\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t\t<p>Simon Jespersen</p>\n\t\t<p><button class=\"btn btn-primary btn-raised\">View Portfolio<div class=\"ripple-wrapper\"></div></button></p>\n\t\t<p><button class=\"btn btn-primary btn-raised\" href=\"#\">View Resume</button></p>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t</div>\n\t"
+            template: "\n    <div>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t\t<h1>contact me</h1>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t</div>\n\t"
         }), 
         __metadata('design:paramtypes', [])
-    ], Home);
-    return Home;
+    ], Contact);
+    return Contact;
 })();
-exports.Home = Home;
-//# sourceMappingURL=home.js.map
+exports.Contact = Contact;
+//# sourceMappingURL=contact.js.map
