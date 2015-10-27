@@ -1,4 +1,11 @@
-<div class="home">
+import {Component, View} from 'angular2/angular2';
+
+@Component({
+    selector: 'home'
+})
+@View({
+    template: `
+    <div class="home">
 	<br/>
 	<br/>
 	<br/>
@@ -12,4 +19,9 @@
 	<br/>
 	<br/>
 	<br/>
-</div>
+	</div>
+	`
+})
+export class Home {
+    constructor() { }
+}

@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <base href="./">
     <title>simjes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
@@ -17,8 +18,9 @@
     <script src="../lib/traceur-runtime.js"></script>
     <script src="../node_modules/systemjs/dist/system.src.js"></script>
     <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="../lib/router.dev.js"></script>
     <script src="../lib/typescript.js"></script>
-    
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script>
@@ -30,24 +32,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-fixed-top navbar-material-teal shadow-z-1 center">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <div class="navbar-collapse collapse navbar-responsive-collapse navbar-inner">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">HOME</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </div>
-    </nav>
+    
     <my-app>Loading...</my-app>
-    <footer class="navbar navbar-fixed-bottom">
-        <p>&copy; Simon Jespersen 2015</p>
-    </footer>
+
 </body>
 
 </html>

@@ -1,14 +1,42 @@
 /// <reference path="../../typings/angular2/angular2.d.ts" />
 import {Component, View, bootstrap} from 'angular2/angular2';
+import {Router, RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router';
+import {Home} from './home';
+//import {Portfolio} from './portfolio';
+
 
 @Component({
-      selector: 'my-app'
-    })
+    selector: 'my-app'
+})
 @View({
-      templateUrl: 'template/home.html'
-    })
+    template: `
+    <nav class="navbar navbar-fixed-top navbar-material-teal shadow-z-1 center">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-collapse collapse navbar-responsive-collapse navbar-inner">
+            <ul class="nav navbar-nav">
+                <li class="active"><a [router-link]="['/Home']">HOME</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <router-outlet></router-outlet>
+    <footer class="navbar navbar-fixed-bottom">
+        <p>&copy; Simon Jespersen 2015</p>
+    </footer>`,
+    directives: [ROUTER_DIRECTIVES]
+})
+@RouteConfig([
+    { path: '/', redirectTo: '/Home' },
+    { path: '/Home', component: Home, as: 'Home' }
+])
+
 export class App {
     constructor() { }
 }
 
-bootstrap(App);
+bootstrap(App, [ROUTER_PROVIDERS]);
