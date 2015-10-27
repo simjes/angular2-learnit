@@ -12,6 +12,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 /// <reference path="../../typings/angular2/angular2.d.ts" />
 var angular2_1 = require('angular2/angular2');
 var router_1 = require('angular2/router');
+var router_2 = require('angular2/router');
 var home_1 = require('./home');
 //import {Portfolio} from './portfolio';
 var App = (function () {
@@ -34,5 +35,5 @@ var App = (function () {
     return App;
 })();
 exports.App = App;
-angular2_1.bootstrap(App, [router_1.ROUTER_PROVIDERS]);
+angular2_1.bootstrap(App, [router_1.ROUTER_PROVIDERS, angular2_1.bind(router_2.LocationStrategy).toClass(router_2.HashLocationStrategy)]);
 //# sourceMappingURL=app.js.map

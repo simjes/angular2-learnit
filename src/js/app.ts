@@ -1,6 +1,7 @@
 /// <reference path="../../typings/angular2/angular2.d.ts" />
-import {Component, View, bootstrap} from 'angular2/angular2';
+import {Component, View, bootstrap, bind} from 'angular2/angular2';
 import {Router, RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router';
+import {Location, LocationStrategy, HashLocationStrategy} from 'angular2/router';
 import {Home} from './home';
 //import {Portfolio} from './portfolio';
 
@@ -39,4 +40,4 @@ export class App {
     constructor() { }
 }
 
-bootstrap(App, [ROUTER_PROVIDERS]);
+bootstrap(App, [ROUTER_PROVIDERS, bind(LocationStrategy).toClass(HashLocationStrategy)]);

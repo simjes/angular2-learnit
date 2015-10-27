@@ -2,7 +2,6 @@
 <html>
 
 <head>
-    <base href="./">
     <title>simjes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
@@ -15,26 +14,25 @@
 	<script src="https://code.angularjs.org/tools/system.js"></script>
 	<script src="https://code.angularjs.org/tools/typescript.js"></script>
 	<script src="https://code.angularjs.org/2.0.0-alpha.44/angular2.dev.js"></script> -->
-    <script src="../lib/traceur-runtime.js"></script>
     <script src="../node_modules/systemjs/dist/system.src.js"></script>
     <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
     <script src="../lib/router.dev.js"></script>
     <script src="../lib/typescript.js"></script>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
     <script>
         System.config({
-            packages: {'app': {defaultExtension: 'js'}}
+            packages: {'js': {defaultExtension: 'js'}}
         });
-        System.import('js/app.js');
+        System.import('js/app');
     </script>
 </head>
 
 <body>
-    
-    <my-app>Loading...</my-app>
 
+    <my-app>Loading...</my-app>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 
 </html>
