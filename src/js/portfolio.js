@@ -18,7 +18,7 @@ var Portfolio = (function () {
             selector: 'portfolio'
         }),
         angular2_1.View({
-            template: "\n    <div>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t\t<p>Simon Jespersen</p>\n\t\t<p><button class=\"btn btn-primary btn-raised\" href=\"#\">View Portfolio</button></p>\n\t\t<p><button class=\"btn btn-primary btn-raised\" href=\"#\">View Resume</button></p>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t</div>\n\t"
+            templateUrl: 'template/portfolio.html'
         }), 
         __metadata('design:paramtypes', [])
     ], Portfolio);

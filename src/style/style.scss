@@ -1,5 +1,6 @@
 $primary-text-color: #FFFFFF;
 $primary-design-color: #009688;
+$hairline-color: #B6B6B6;
 
 footer {
   padding-top: 10px;
@@ -34,6 +35,15 @@ footer {
   }
 }
 
+#navbar-custom {
+  margin: 100px;
+}
+
+.portfolio-center {
+  text-align: center;
+}
+
+
 .navbar.center .navbar-inner {
     text-align: center;
 }
@@ -42,4 +52,42 @@ footer {
     display:inline-block;
     float: none;
 }
+
+hr {
+  border-color: $hairline-color;
+  background-color: $hairline-color;
+  color: $hairline-color;
+}
+
+.portfolio-align {
+    text-align: center;
+ }
+
+@media (max-width: 768px) {
+  .portfolio-xs-align {
+    text-align: center;
+  }
+  
+  .circle-xs-align {
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .circle-sm-align {
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+}
+
+//temp stuff
+.img-box {
+  background-color: red;
+  height: 80px;
+  border: 2px solid black;
+}
+
+
 

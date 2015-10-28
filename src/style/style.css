@@ -22,11 +22,42 @@ footer {
     width: 200px;
     height: 50px; }
 
+#navbar-custom {
+  margin: 100px; }
+
+.portfolio-center {
+  text-align: center; }
+
 .navbar.center .navbar-inner {
   text-align: center; }
 
 .navbar.center .navbar-inner .nav {
   display: inline-block;
   float: none; }
+
+hr {
+  border-color: #B6B6B6;
+  background-color: #B6B6B6;
+  color: #B6B6B6; }
+
+.portfolio-align {
+  text-align: center; }
+
+@media (max-width: 768px) {
+  .portfolio-xs-align {
+    text-align: center; }
+
+  .circle-xs-align {
+    display: block;
+    margin: 10px auto; } }
+@media (min-width: 768px) {
+  .circle-sm-align {
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 10px; } }
+.img-box {
+  background-color: red;
+  height: 80px;
+  border: 2px solid black; }
 
 /*# sourceMappingURL=style.css.map */
