@@ -4,11 +4,6 @@ footer {
   background-color: #009688; }
   footer p {
     color: #FFFFFF; }
-  footer a:link,
-  footer a:visited,
-  footer a:hover,
-  footer a:active {
-    color: #FFFFFF; }
 
 #page-cont {
   margin-top: 50px;
