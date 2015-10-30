@@ -12,18 +12,28 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 /// <reference path="../../typings/angular2/angular2.d.ts" />
 /// <reference path="../../typings/angular2/http.d.ts" />
 var angular2_1 = require('angular2/angular2');
+var http_1 = require('angular2/http');
 var Portfolio = (function () {
-    function Portfolio() {
+    function Portfolio(http) {
+        var _this = this;
+        this.projects = [];
+        http.get('projects.json')
+            .map(function (res) { return res.json(); })
+            .subscribe(function (projects) { return _this.projects = projects; });
     }
+    Portfolio.prototype.tst = function () {
+        console.log(this.projects["projects"]["0"]);
+    };
     Portfolio = __decorate([
         angular2_1.Component({
-            selector: 'portfolio'
+            selector: 'portfolio',
+            providers: [http_1.HTTP_PROVIDERS]
         }),
         angular2_1.View({
             templateUrl: './template/portfolio.html',
             directives: [angular2_1.NgFor]
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [http_1.Http])
     ], Portfolio);
     return Portfolio;
 })();
