@@ -1,4 +1,5 @@
 /// <reference path="../../typings/angular2/angular2.d.ts" />
+/// <reference path="../../typings/angular2/router.d.ts" />
 import {Component, View, bootstrap, bind} from 'angular2/angular2';
 import {Router, RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router';
 import {Location, LocationStrategy, HashLocationStrategy} from 'angular2/router';

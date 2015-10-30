@@ -9,6 +9,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+/// <reference path="../../typings/angular2/angular2.d.ts" />
+/// <reference path="../../typings/angular2/http.d.ts" />
 var angular2_1 = require('angular2/angular2');
 var Portfolio = (function () {
     function Portfolio() {
@@ -18,11 +20,13 @@ var Portfolio = (function () {
             selector: 'portfolio'
         }),
         angular2_1.View({
-            templateUrl: 'template/portfolio.html'
+            templateUrl: './template/portfolio.html',
+            directives: [angular2_1.NgFor]
         }), 
         __metadata('design:paramtypes', [])
     ], Portfolio);
     return Portfolio;
 })();
 exports.Portfolio = Portfolio;
+//import directive ng-for. for each project 
 //# sourceMappingURL=portfolio.js.map

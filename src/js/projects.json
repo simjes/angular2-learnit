@@ -1,0 +1,137 @@
+{
+    "projects": [
+        {
+            "title": "Streemer",
+            "description": "Cross-platform application that collects multiple streaming websites in one application. This is a Ionic+Cordova application. ",
+            "icon": "img/streemer.png",
+            "pictures": {
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
+            },
+            "links": {
+                "code": "",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
+            "title": "CloudComics",
+            "description": "Cross-platform application that lets you read comic books(.cbr and .cbz format) from your cloud storage. This project is done with Ionic+Cordova.",
+            "icon": "img/cloudcomics.png",
+            "pictures": {
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
+            },
+            "links": {
+                "code": "",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
+            "title": "SimCV",
+            "description": "This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera.",
+            "icon": "img/simcv.png",
+            "pictures": {
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
+            },
+            "links": {
+                "code": "",
+                "youtube": "https://www.youtube.com/watch?v=oCViAhgrZn0",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
+            "title": "ShopList",
+            "description": "This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera.",
+            "icon": "img/shoplist.png",
+            "pictures": {
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
+            },
+            "links": {
+                "code": "https://github.com/simjes/ShopList",
+                "youtube": "",
+                "app_store": "",
+                "play_store": "https://play.google.com/store/apps/details?id=com.simjes.shoplist"
+            }
+        },
+        {
+            "title": "Firestorm",
+            "description": "Remote control for a gas fireplace, built with Raspberry Pi and Android. Raspberry Pi runs a Python or a Go http server, which responds to GET requests from a Android application.",
+            "icon": "img/firestorm.png",
+            "pictures": {
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
+            },
+            "links": {
+                "code": "https://github.com/simjes/Firestorm",
+                "youtube": "https://www.youtube.com/watch?v=aHwYtt6lNsw",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
+            "title": "pictureSort",
+            "description": "Copies and sorts all the pictures in the Windows picture folder into a new folder. Pictures are sorted by date. Goal of this project is to learn C#. Still has some bugs and features missing.",
+            "icon": "img/picturesort.png",
+            "pictures": {
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
+            },
+            "links": {
+                "code": "https://github.com/simjes/pictureSort",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        },
+        {
+            "title": "School Assignments",
+            "description": "These assignments includes web, Java, C, and Go programming.",
+            "icon": "img/school.png",
+            "pictures": {
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
+            },
+            "links": {
+                "code": "",
+                "youtube": "",
+                "app_store": "",
+                "play_store": ""
+            }
+        }
+    ]
+}
