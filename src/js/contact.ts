@@ -5,12 +5,10 @@ import {Component, View} from 'angular2/angular2';
 })
 @View({
     template: `
-    <div>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-		<h1>contact me</h1>
+    <div id="page-cont">
+		<div class="container">
+			<h1>contact me</h1>
+		</div>
 	<br/>
 	<br/>
 	<br/>

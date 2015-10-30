@@ -19,6 +19,10 @@ footer {
   }
 }
 
+#page-cont {
+  margin-top: 50px;
+}
+
 .home {
   background-image: url('../img/stock-bg.jpg');
   background-repeat: no-repeat;
@@ -28,15 +32,10 @@ footer {
   text-align: center;
   color: $primary-text-color;
   
-  
   button {
     width: 200px;
     height: 50px;
   }
-}
-
-#navbar-custom {
-  margin: 100px;
 }
 
 .portfolio-center {
@@ -88,6 +87,4 @@ hr {
   height: 80px;
   border: 2px solid black;
 }
-
-
 

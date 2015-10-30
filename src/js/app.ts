@@ -12,22 +12,20 @@ import {Contact} from './contact'
 })
 @View({
     template: `
-    <div id="navbar-custom">
-        <nav class="navbar navbar-fixed-top navbar-material-teal shadow-z-1 center">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-collapse collapse navbar-responsive-collapse navbar-inner">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a [router-link]="['/Home']">HOME</a></li>
-                    <li><a [router-link]="['/Portfolio']">PORTFOLIO</a></li>
-                    <li><a [router-link]="['/Contact']">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <nav class="navbar navbar-fixed-top navbar-material-teal shadow-z-1 center">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-collapse collapse navbar-responsive-collapse navbar-inner">
+            <ul class="nav navbar-nav">
+                <li><a [router-link]="['/Home']">HOME</a></li>
+                <li><a [router-link]="['/Portfolio']">PORTFOLIO</a></li>
+                <li><a [router-link]="['/Contact']">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
     <router-outlet></router-outlet>
     <footer class="navbar navbar-fixed-bottom">
         <p>&copy; Simon Jespersen 2015</p>
