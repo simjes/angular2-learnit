@@ -21,9 +21,6 @@ var Portfolio = (function () {
             .map(function (res) { return res.json(); })
             .subscribe(function (projects) { return _this.projects = projects; });
     }
-    Portfolio.prototype.tst = function () {
-        console.log(this.projects["projects"]["0"]);
-    };
     Portfolio = __decorate([
         angular2_1.Component({
             selector: 'portfolio',
@@ -31,12 +28,11 @@ var Portfolio = (function () {
         }),
         angular2_1.View({
             templateUrl: './template/portfolio.html',
-            directives: [angular2_1.NgFor]
+            directives: [angular2_1.NgFor, angular2_1.NgIf]
         }), 
         __metadata('design:paramtypes', [http_1.Http])
     ], Portfolio);
     return Portfolio;
 })();
 exports.Portfolio = Portfolio;
-//import directive ng-for. for each project 
 //# sourceMappingURL=portfolio.js.map

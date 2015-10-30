@@ -11,7 +11,16 @@ footer {
     color: #FFFFFF; }
 
 #page-cont {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 20px; }
+  #page-cont a:link,
+  #page-cont a:visited,
+  #page-cont a:hover,
+  #page-cont a:active {
+    color: #000000; }
+  #page-cont a:hover {
+    color: #009688;
+    text-decoration: underline; }
 
 .home {
   background-image: url("../img/stock-bg.jpg");

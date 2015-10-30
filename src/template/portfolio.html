@@ -3,12 +3,9 @@
 		<div *ng-for="#project of projects.projects">
 			<div class="col-xs-12 portfolio-center">
 				<h1>{{project.title}}</h1></div>
-			<div class="col-xs-12 col-sm-2 portfolio-xs-align"><img class="img-circle circle-xs-align circle-sm-align" src="img/hector.png" width="100" height="100"></div>
+			<div class="col-xs-12 col-sm-2 portfolio-xs-align"><img class="img-circle circle-xs-align circle-sm-align" src="{{project.icon}}" width="100" height="100"></div>
 			<div class="col-xs-12 col-sm-4">
-				This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera. You can see the
-				app in use here. This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera.
-				You can see the app in use here. This is my bachelor thesis. It shows how the OpenCV library can be used together with
-				the Android camera. You can see the app in use here.
+				{{project.description}}
 			</div>
 			<div class="col-xs-12 col-sm-6 portfolio-xs-align">
 				<div class="col-xs-4 col-sm-4 img-box"></div>
@@ -18,9 +15,13 @@
 				<div class="col-xs-4 col-sm-4 img-box"></div>
 				<div class="col-xs-4 col-sm-4 img-box"></div>
 				<div class="row"></div>
-				<div class="col-xs-12 portfolio-center">Code | youtubee | google play</div>
+				<div class="col-xs-12 portfolio-center">
+					<span *ng-if="project.links.code">| <a href="{{project.links.code}}" target="_blank">Source code</a> |</span>
+					<span *ng-if="project.links.youtube">| <a href="{{project.links.youtube}}" target="_blank">Youtube</a> |</span>
+					<span *ng-if="project.links.app_store">| <a href="{{project.links.app_store}}" target="_blank">App store</a> |</span>
+					<span *ng-if="project.links.play_store">| <a href="{{project.links.play_store}}" target="_blank">Google Play</a> |</span>
+				</div>
 			</div>
-			<button (click)="tst()">lel</button>
 			<div class="col-xs-12">
 				<hr>
 			</div>

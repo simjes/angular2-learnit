@@ -1,4 +1,5 @@
 $primary-text-color: #FFFFFF;
+$secondary-text-color: #000000;
 $primary-design-color: #009688;
 $hairline-color: #B6B6B6;
 
@@ -21,6 +22,19 @@ footer {
 
 #page-cont {
   margin-top: 50px;
+  margin-bottom: 20px;
+  
+  a:link,
+  a:visited,
+  a:hover,
+  a:active  {
+    color: $secondary-text-color;
+  }
+  
+  a:hover {
+    color: $primary-design-color;
+    text-decoration: underline;
+  }
 }
 
 .home {

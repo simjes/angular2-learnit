@@ -1,6 +1,6 @@
 /// <reference path="../../typings/angular2/angular2.d.ts" />
 /// <reference path="../../typings/angular2/http.d.ts" />
-import {Component, View, NgFor} from 'angular2/angular2';
+import {Component, View, NgFor,  NgIf} from 'angular2/angular2';
 import {Http, HTTP_PROVIDERS} from 'angular2/http';
 
 @Component({
@@ -9,7 +9,7 @@ import {Http, HTTP_PROVIDERS} from 'angular2/http';
 })
 @View({
     templateUrl: './template/portfolio.html',
-    directives: [NgFor]
+    directives: [NgFor, NgIf]
 })
 
 export class Portfolio {
@@ -21,10 +21,4 @@ export class Portfolio {
             .map(res => res.json())
             .subscribe(projects => this.projects = projects);
     }
-
-    tst() {
-        console.log(this.projects["projects"]["0"]);
-    }
 }
-
-//import directive ng-for. for each project
