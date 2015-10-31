@@ -35,11 +35,13 @@ footer {
 .portfolio-center {
   text-align: center; }
 
-.navbar.center .navbar-inner {
-  text-align: center; }
+.navbar-header {
+  float: left;
+  padding: 15px;
+  text-align: center;
+  width: 100%; }
 
-.navbar.center .navbar-inner .nav {
-  display: inline-block;
+.navbar-brand {
   float: none; }
 
 hr {
