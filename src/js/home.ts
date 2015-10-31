@@ -12,8 +12,8 @@ import {Component, View} from 'angular2/angular2';
 	<br/>
 	<br/>
 		<p>Simon Jespersen</p>
-		<p><button class="btn btn-primary btn-raised">View Portfolio</button></p>
-		<p><button class="btn btn-primary btn-raised" href="#">View Resume</button></p>
+		<p><button class="btn btn-raised btn-material-blue-A200">View Portfolio</button></p>
+		<p><button class="btn btn-raised btn-material-blue-A200">View Resume</button></p>
 	<br/>
 	<br/>
 	<br/>
