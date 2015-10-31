@@ -37,6 +37,13 @@ footer {
     float: none;
     display: inline-block; }
 
+.contact-container {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .contact-container div {
+    margin-bottom: 60px; }
+
 #page-cont {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -85,12 +92,5 @@ hr {
 
 .img-container {
   text-align: center; }
-
-.contact-container {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px; }
-  .contact-container div {
-    margin-bottom: 60px; }
 
 /*# sourceMappingURL=style.css.map */
