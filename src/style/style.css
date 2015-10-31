@@ -7,7 +7,8 @@ footer {
 
 #page-cont {
   margin-top: 50px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.87); }
   #page-cont a:link,
   #page-cont a:visited,
   #page-cont a:hover,
@@ -16,6 +17,8 @@ footer {
   #page-cont a:hover {
     color: #009688;
     text-decoration: underline; }
+  #page-cont h1 {
+    color: #000; }
 
 .home {
   background-image: url("../img/stock-bg.jpg");
@@ -40,9 +43,9 @@ footer {
   float: none; }
 
 hr {
-  border-color: #B6B6B6;
-  background-color: #B6B6B6;
-  color: #B6B6B6; }
+  border-color: rgba(0, 0, 0, 0.12);
+  background-color: rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.12); }
 
 .portfolio-align {
   text-align: center; }

@@ -1,7 +1,12 @@
 $primary-text-color: #FFFFFF;
 $secondary-text-color: #000000;
+
+$primary-material-text: rgba(0, 0, 0, 0.87);
+$secondary-material-text: rgba(0, 0, 0, 0.54);
+
 $primary-design-color: #009688;
-$hairline-color: #B6B6B6;
+$accent-design-color: #448AFF;
+$hairline-color: rgba(0, 0, 0, 0.12);
 
 footer {
   padding-top: 10px;
@@ -16,6 +21,7 @@ footer {
 #page-cont {
   margin-top: 50px;
   margin-bottom: 20px;
+  color: $primary-material-text;
   
   a:link,
   a:visited,
@@ -27,6 +33,10 @@ footer {
   a:hover {
     color: $primary-design-color;
     text-decoration: underline;
+  }
+  
+  h1 {
+    color: #000;
   }
 }
 
