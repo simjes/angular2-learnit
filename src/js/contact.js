@@ -19,7 +19,7 @@ var Contact = (function () {
             selector: 'contact'
         }),
         angular2_1.View({
-            template: "\n    <div id=\"page-cont\">\n\t\t<div class=\"container\">\n\t\t\t<h1>contact me</h1>\n\t\t</div>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t</div>\n\t"
+            templateUrl: './template/contact.html'
         }), 
         __metadata('design:paramtypes', [])
     ], Contact);
