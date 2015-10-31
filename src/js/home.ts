@@ -7,19 +7,11 @@ import {Component, View} from 'angular2/angular2';
 @View({
     template: `
 	<div class="home">
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-		<p>Simon Jespersen</p>
-		<p><button class="btn btn-raised btn-material-blue-A200">View Portfolio</button></p>
-		<p><button class="btn btn-raised btn-material-blue-A200">View Resume</button></p>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
+		<div>
+			<h1>Simon Jespersen</h1>
+			<p><a class="waves-effect waves-light btn-large blue accent-2">View Portfolio</a></p>
+			<p><a class="waves-effect waves-light btn-large blue accent-2">View Resume</a></p>
+		</div>
 	</div>
 	`
 })

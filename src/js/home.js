@@ -19,7 +19,7 @@ var Home = (function () {
             selector: 'home'
         }),
         angular2_1.View({
-            template: "\n\t<div class=\"home\">\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t\t<p>Simon Jespersen</p>\n\t\t<p><button class=\"btn btn-raised btn-material-blue-A200\">View Portfolio</button></p>\n\t\t<p><button class=\"btn btn-raised btn-material-blue-A200\">View Resume</button></p>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t<br/>\n\t</div>\n\t"
+            template: "\n\t<div class=\"home\">\n\t\t<div>\n\t\t\t<h1>Simon Jespersen</h1>\n\t\t\t<p><a class=\"waves-effect waves-light btn-large blue accent-2\">View Portfolio</a></p>\n\t\t\t<p><a class=\"waves-effect waves-light btn-large blue accent-2\">View Resume</a></p>\n\t\t</div>\n\t</div>\n\t"
         }), 
         __metadata('design:paramtypes', [])
     ], Home);

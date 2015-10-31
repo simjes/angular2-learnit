@@ -7,7 +7,6 @@ import {Home} from './home';
 import {Portfolio} from './portfolio'
 import {Contact} from './contact'
 
-
 @Component({
     selector: 'my-app'
 })
@@ -17,17 +16,17 @@ import {Contact} from './contact'
         <nav class="teal z-depth-1">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo center">SIMJES</a>
-                <div class="router-buttons">
-                    <div class="img-circle shadow-z-2"><a [router-link]="['/Home']"><img src="img/home.svg" height="50" width="50"></a></div>
-                    <div class="img-circle shadow-z-2"><a [router-link]="['/Portfolio']"><img src="img/portfolio.svg" height="50" width="50"></a></div>
-                    <div class="img-circle shadow-z-2"><a [router-link]="['/Contact']"><img src="img/contact.svg" height="50" width="50"></a></div>
+                 <div class="router-buttons">
+                    <div class="img-circle z-depth-2"><a [router-link]="['/Home']"><img src="img/home.svg" height="60" width="60"></a></div>
+                    <div class="img-circle z-depth-2"><a [router-link]="['/Portfolio']"><img src="img/portfolio.svg" height="60" width="60"></a></div>
+                    <div class="img-circle z-depth-2"><a [router-link]="['/Contact']"><img src="img/contact.svg" height="60" width="60"></a></div>
                 </div>
             </div>
         </nav>
     </div>
     <router-outlet></router-outlet>
-    <footer class="navbar navbar-fixed-bottom">
-        <p>&copy; Simon Jespersen 2015</p>
+    <footer class="page-footer teal">
+        © 2015 Simon Jespersen
     </footer>
     `,
     directives: [ROUTER_DIRECTIVES]
