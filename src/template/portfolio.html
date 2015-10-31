@@ -9,13 +9,13 @@
 			</div>
 			<div class="col-xs-12 col-sm-4">
 				<div class="img-container">
-					<div class="col-xs-4 col-sm-3 img-box shadow-z-2"></div>
-					<div class="col-xs-4 col-sm-3 img-box shadow-z-2"></div>
-					<div class="col-xs-4 col-sm-3 img-box shadow-z-2"></div>
+					<div class="col-xs-4 col-sm-3 img-box shadow-z-2" *ng-if="project.thumbs.img_1" [ng-style]="{'background-image': 'url(' + project.thumbs.img_1 + ')'}"></div>
+					<div class="col-xs-4 col-sm-3 img-box shadow-z-2" *ng-if="project.thumbs.img_2" [ng-style]="{'background-image': 'url(' + project.thumbs.img_2 + ')'}"></div>
+					<div class="col-xs-4 col-sm-3 img-box shadow-z-2" *ng-if="project.thumbs.img_3" [ng-style]="{'background-image': 'url(' + project.thumbs.img_3 + ')'}"></div>
 					<div class="row visible-xs-block"></div>
-					<div class="col-xs-4 col-sm-3 img-box shadow-z-2"></div>
-					<div class="col-xs-4 col-sm-3 img-box shadow-z-2"></div>
-					<div class="col-xs-4 col-sm-3 img-box shadow-z-2"></div>
+					<div class="col-xs-4 col-sm-3 img-box shadow-z-2" *ng-if="project.thumbs.img_4" [ng-style]="{'background-image': 'url(' + project.thumbs.img_4 + ')'}"></div>
+					<div class="col-xs-4 col-sm-3 img-box shadow-z-2" *ng-if="project.thumbs.img_5" [ng-style]="{'background-image': 'url(' + project.thumbs.img_5 + ')'}"></div>
+					<div class="col-xs-4 col-sm-3 img-box shadow-z-2" *ng-if="project.thumbs.img_6" [ng-style]="{'background-image': 'url(' + project.thumbs.img_6 + ')'}"></div>
 					<div class="row"></div>
 					<div class="col-xs-12 portfolio-center">
 						<span *ng-if="project.links.code">| <a href="{{project.links.code}}" target="_blank">Source code</a> |</span>

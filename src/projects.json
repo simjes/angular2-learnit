@@ -5,20 +5,20 @@
             "description": "Cross-platform application that collects multiple streaming websites in one application. This is a Ionic+Cordova application. ",
             "icon": "img/streemer.svg",
             "pictures": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "img/project_img/streemer/streemer_picture.png",
+                "img_2": "img/project_img/streemer/streemer_picture2.png",
+                "img_3": "img/project_img/streemer/streemer_picture3.png",
+                "img_4": "img/project_img/streemer/streemer_picture4.png",
+                "img_5": "img/project_img/streemer/streemer_picture5.png",
+                "img_6": "img/project_img/streemer/streemer_picture6.png"
             },
             "thumbs": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "img/project_img/streemer/streemer_thumb.png",
+                "img_2": "img/project_img/streemer/streemer_thumb2.png",
+                "img_3": "img/project_img/streemer/streemer_thumb3.png",
+                "img_4": "img/project_img/streemer/streemer_thumb4.png",
+                "img_5": "img/project_img/streemer/streemer_thumb5.png",
+                "img_6": "img/project_img/streemer/streemer_thumb6.png"
             },
             "links": {
                 "code": "",
@@ -32,20 +32,20 @@
             "description": "Cross-platform application that lets you read comic books(.cbr and .cbz format) from your cloud storage. This project is done with Ionic+Cordova.",
             "icon": "img/cloudcomics.svg",
             "pictures": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
             },
             "thumbs": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
             },
             "links": {
                 "code": "",
@@ -59,20 +59,20 @@
             "description": "This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera.",
             "icon": "img/simcv.svg",
             "pictures": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "img/project_img/simcv/simcv_picture.png",
+                "img_2": "img/project_img/simcv/simcv_picture2.png",
+                "img_3": "img/project_img/simcv/simcv_picture3.png",
+                "img_4": "img/project_img/simcv/simcv_picture4.png",
+                "img_5": "img/project_img/simcv/simcv_picture5.png",
+                "img_6": "img/project_img/simcv/simcv_picture6.png"
             },
             "thumbs": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "img/project_img/simcv/simcv_thumb.png",
+                "img_2": "img/project_img/simcv/simcv_thumb2.png",
+                "img_3": "img/project_img/simcv/simcv_thumb3.png",
+                "img_4": "img/project_img/simcv/simcv_thumb4.png",
+                "img_5": "img/project_img/simcv/simcv_thumb5.png",
+                "img_6": "img/project_img/simcv/simcv_thumb6.png"
             },
             "links": {
                 "code": "https://github.com/simjes/OpenCV-Bachelor",
@@ -86,20 +86,20 @@
             "description": "This is my bachelor thesis. It shows how the OpenCV library can be used together with the Android camera.",
             "icon": "img/shoplist.svg",
             "pictures": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "img/project_img/shoplist/shoplist_picture.png",
+                "img_2": "img/project_img/shoplist/shoplist_picture2.png",
+                "img_3": "img/project_img/shoplist/shoplist_picture3.png",
+                "img_4": "img/project_img/shoplist/shoplist_picture4.png",
+                "img_5": "img/project_img/shoplist/shoplist_picture5.png",
+                "img_6": "img/project_img/shoplist/shoplist_picture6.png"
             },
             "thumbs": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "img/project_img/shoplist/shoplist_thumb.png",
+                "img_2": "img/project_img/shoplist/shoplist_thumb2.png",
+                "img_3": "img/project_img/shoplist/shoplist_thumb3.png",
+                "img_4": "img/project_img/shoplist/shoplist_thumb4.png",
+                "img_5": "img/project_img/shoplist/shoplist_thumb5.png",
+                "img_6": "img/project_img/shoplist/shoplist_thumb6.png"
             },
             "links": {
                 "code": "https://github.com/simjes/ShopList",
@@ -113,20 +113,20 @@
             "description": "Remote control for a gas fireplace, built with Raspberry Pi and Android. Raspberry Pi runs a Python or a Go http server, which responds to GET requests from a Android application.",
             "icon": "img/firestorm.svg",
             "pictures": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
             },
             "thumbs": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
             },
             "links": {
                 "code": "https://github.com/simjes/Firestorm",
@@ -140,20 +140,20 @@
             "description": "Copies and sorts all the pictures in the Windows picture folder into a new folder. Pictures are sorted by date. Goal of this project is to learn C#. Still has some bugs and features missing.",
             "icon": "img/picturesort.svg",
             "pictures": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
             },
             "thumbs": {
-                "img_1": "img/project_img/streemer_thumb.png",
-                "img_2": "img/project_img/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer_thumb6.png"
+                "img_1": "",
+                "img_2": "",
+                "img_3": "",
+                "img_4": "",
+                "img_5": "",
+                "img_6": ""
             },
             "links": {
                 "code": "https://github.com/simjes/pictureSort",
