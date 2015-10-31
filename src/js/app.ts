@@ -13,7 +13,7 @@ import {Contact} from './contact'
 })
 @View({
     template: `
-    <nav class="navbar navbar-fixed-top navbar-material-teal shadow-z-1 center">
+    <nav class="navbar navbar-fixed-top navbar-material-teal shadow-z-2 center">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>

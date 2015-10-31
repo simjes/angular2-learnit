@@ -18,7 +18,7 @@ footer {
     color: #009688;
     text-decoration: underline; }
   #page-cont h1 {
-    color: #000; }
+    color: #000000; }
 
 .home {
   background-image: url("../img/stock-bg.jpg");
@@ -52,7 +52,9 @@ hr {
 
 @media (max-width: 768px) {
   .portfolio-xs-align {
-    text-align: center; }
+    text-align: center;
+    display: inline-block;
+    float: none; }
 
   .circle-xs-align {
     display: block;
@@ -63,8 +65,14 @@ hr {
     margin-top: 50px;
     margin-bottom: 10px; } }
 .img-box {
-  background-color: red;
-  height: 80px;
-  border: 2px solid black; }
+  display: inline-block;
+  float: none;
+  margin: 6px;
+  height: 90px;
+  width: 90px;
+  background-size: 90px 90px; }
+
+.img-container {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

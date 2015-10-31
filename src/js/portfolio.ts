@@ -1,6 +1,6 @@
 /// <reference path="../../typings/angular2/angular2.d.ts" />
 /// <reference path="../../typings/angular2/http.d.ts" />
-import {Component, View, NgFor,  NgIf} from 'angular2/angular2';
+import {Component, View, NgFor,  NgIf, NgStyle} from 'angular2/angular2';
 import {Http, HTTP_PROVIDERS} from 'angular2/http';
 
 @Component({
@@ -9,7 +9,7 @@ import {Http, HTTP_PROVIDERS} from 'angular2/http';
 })
 @View({
     templateUrl: './template/portfolio.html',
-    directives: [NgFor, NgIf]
+    directives: [NgFor, NgIf, NgStyle]
 })
 
 export class Portfolio {

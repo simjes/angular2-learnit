@@ -28,7 +28,7 @@ var Portfolio = (function () {
         }),
         angular2_1.View({
             templateUrl: './template/portfolio.html',
-            directives: [angular2_1.NgFor, angular2_1.NgIf]
+            directives: [angular2_1.NgFor, angular2_1.NgIf, angular2_1.NgStyle]
         }), 
         __metadata('design:paramtypes', [http_1.Http])
     ], Portfolio);

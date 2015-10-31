@@ -36,7 +36,7 @@ footer {
   }
   
   h1 {
-    color: #000;
+    color: $secondary-text-color;
   }
 }
 
@@ -82,6 +82,8 @@ hr {
 @media (max-width: 768px) {
   .portfolio-xs-align {
     text-align: center;
+    display: inline-block;
+    float: none;
   }
   
   .circle-xs-align {
@@ -98,10 +100,15 @@ hr {
   }
 }
 
-//temp stuff
 .img-box {
-  background-color: red;
-  height: 80px;
-  border: 2px solid black;
+  display : inline-block; 
+  float: none;
+  margin: 6px;
+  height: 90px;
+  width: 90px;
+  background-size: 90px 90px;
 }
 
+.img-container {
+  text-align: center;
+}
