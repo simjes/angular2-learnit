@@ -26,7 +26,8 @@ import {Contact} from './contact'
     <router-outlet></router-outlet>
     <footer class="navbar navbar-fixed-bottom">
         <p>&copy; Simon Jespersen 2015</p>
-    </footer>`,
+    </footer>
+    `,
     directives: [ROUTER_DIRECTIVES]
 })
 @RouteConfig([
