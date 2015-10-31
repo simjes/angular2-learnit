@@ -9,8 +9,8 @@ import {Component, View} from 'angular2/angular2';
 	<div class="home">
 		<div>
 			<h1>Simon Jespersen</h1>
-			<p><a class="waves-effect waves-light btn-large blue accent-2">View Portfolio</a></p>
-			<p><a class="waves-effect waves-light btn-large blue accent-2">View Resume</a></p>
+			<p><a class="waves-effect waves-light btn-large blue accent-2 z-depth-1">View Portfolio</a></p>
+			<p><a class="waves-effect waves-light btn-large blue accent-2 z-depth-1">View Resume</a></p>
 		</div>
 	</div>
 	`
