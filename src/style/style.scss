@@ -8,6 +8,10 @@ $primary-design-color: #009688;
 $accent-design-color: #448AFF;
 $hairline-color: rgba(0, 0, 0, 0.12);
 
+body {
+  margin: 0;
+}
+
 footer {
   padding-top: 15px;
   text-align: center;
@@ -25,7 +29,6 @@ footer {
   
   a:link,
   a:visited,
-  a:hover,
   a:active  {
     color: $secondary-text-color;
   }
@@ -58,15 +61,6 @@ footer {
 .portfolio-center {
   text-align: center;
 }
-
-.navbar-header {
-    float: left;
-    padding: 15px;
-    text-align: center;
-    width: 100%;
-}
-
-.navbar-brand {float:none;}
 
 hr {
   border-color: $hairline-color;
