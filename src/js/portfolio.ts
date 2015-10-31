@@ -1,5 +1,5 @@
-/// <reference path="../../typings/angular2/angular2.d.ts" />
-/// <reference path="../../typings/angular2/http.d.ts" />
+/// <reference path="../../node_modules/angular2/angular2.d.ts" />
+/// <reference path="../../node_modules/angular2/http.d.ts" />
 import {Component, View, NgFor,  NgIf, NgStyle} from 'angular2/angular2';
 import {Http, HTTP_PROVIDERS} from 'angular2/http';
 

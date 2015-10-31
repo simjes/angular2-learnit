@@ -1,5 +1,5 @@
-/// <reference path="../../typings/angular2/angular2.d.ts" />
-/// <reference path="../../typings/angular2/router.d.ts" />
+/// <reference path="../../node_modules/angular2/angular2.d.ts" />
+/// <reference path="../../node_modules/angular2/router.d.ts" />
 import {Component, View, bootstrap, bind} from 'angular2/angular2';
 import {Router, RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router';
 import {Location, LocationStrategy, HashLocationStrategy} from 'angular2/router';
@@ -13,8 +13,9 @@ import {Contact} from './contact'
 })
 @View({
     template: `
-    <nav class="navbar navbar-fixed-top navbar-material-teal shadow-z-2 center">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+    <nav class="navbar navbar-fixed-top navbar-material-teal shadow-z-1 center">
+    <a class="navbar-brand" href="#">SIMJES</a>
+        <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -25,7 +26,7 @@ import {Contact} from './contact'
                 <li><a [router-link]="['/Portfolio']">PORTFOLIO</a></li>
                 <li><a [router-link]="['/Contact']">CONTACT</a></li>
             </ul>
-        </div>
+        </div> -->
     </nav>
     <router-outlet></router-outlet>
     <footer class="navbar navbar-fixed-bottom">

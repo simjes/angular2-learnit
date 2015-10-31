@@ -9,8 +9,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-/// <reference path="../../typings/angular2/angular2.d.ts" />
-/// <reference path="../../typings/angular2/router.d.ts" />
+/// <reference path="../../node_modules/angular2/angular2.d.ts" />
+/// <reference path="../../node_modules/angular2/router.d.ts" />
 var angular2_1 = require('angular2/angular2');
 var router_1 = require('angular2/router');
 var router_2 = require('angular2/router');
@@ -25,7 +25,7 @@ var App = (function () {
             selector: 'my-app'
         }),
         angular2_1.View({
-            template: "\n    <nav class=\"navbar navbar-fixed-top navbar-material-teal shadow-z-2 center\">\n        <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-responsive-collapse\">\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n        </button>\n        <div class=\"navbar-collapse collapse navbar-responsive-collapse navbar-inner\">\n            <ul class=\"nav navbar-nav\">\n                <li><a [router-link]=\"['/Home']\">HOME</a></li>\n                <li><a [router-link]=\"['/Portfolio']\">PORTFOLIO</a></li>\n                <li><a [router-link]=\"['/Contact']\">CONTACT</a></li>\n            </ul>\n        </div>\n    </nav>\n    <router-outlet></router-outlet>\n    <footer class=\"navbar navbar-fixed-bottom\">\n        <p>&copy; Simon Jespersen 2015</p>\n    </footer>",
+            template: "\n    <nav class=\"navbar navbar-fixed-top navbar-material-teal shadow-z-1 center\">\n    <a class=\"navbar-brand\" href=\"#\">SIMJES</a>\n        <!-- <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-responsive-collapse\">\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n        </button>\n        <div class=\"navbar-collapse collapse navbar-responsive-collapse navbar-inner\">\n            <ul class=\"nav navbar-nav\">\n                <li><a [router-link]=\"['/Home']\">HOME</a></li>\n                <li><a [router-link]=\"['/Portfolio']\">PORTFOLIO</a></li>\n                <li><a [router-link]=\"['/Contact']\">CONTACT</a></li>\n            </ul>\n        </div> -->\n    </nav>\n    <router-outlet></router-outlet>\n    <footer class=\"navbar navbar-fixed-bottom\">\n        <p>&copy; Simon Jespersen 2015</p>\n    </footer>",
             directives: [router_1.ROUTER_DIRECTIVES]
         }),
         router_1.RouteConfig([
