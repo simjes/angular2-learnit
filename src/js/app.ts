@@ -15,11 +15,10 @@ import {Contact} from './contact'
     <div class="navbar-fixed">
         <nav class="teal z-depth-1">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo center">SIMJES</a>
-                 <div class="router-buttons">
-                    <div class="img-circle z-depth-2"><a [router-link]="['/Home']"><img src="img/home.svg" height="60" width="60"></a></div>
-                    <div class="img-circle z-depth-2"><a [router-link]="['/Portfolio']"><img src="img/portfolio.svg" height="60" width="60"></a></div>
-                    <div class="img-circle z-depth-2"><a [router-link]="['/Contact']"><img src="img/contact.svg" height="60" width="60"></a></div>
+                <div class="router-buttons">
+                    <div class="waves-effect waves-light img-circle z-depth-2"><a [router-link]="['/Home']"><img src="img/home.svg" height="60" width="60"></a></div>
+                    <div class="waves-effect waves-light img-circle z-depth-2"><a [router-link]="['/Portfolio']"><img src="img/portfolio.svg" height="60" width="60"></a></div>
+                    <div class="waves-effect waves-light img-circle z-depth-2"><a [router-link]="['/Contact']"><img src="img/contact.svg" height="60" width="60"></a></div>
                 </div>
             </div>
         </nav>

@@ -29,6 +29,14 @@ footer {
   .home a {
     width: 200px; }
 
+.router-buttons {
+  margin-top: 30px;
+  text-align: center; }
+  .router-buttons div {
+    margin: 0 10px;
+    float: none;
+    display: inline-block; }
+
 #page-cont {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -84,13 +92,5 @@ hr {
   margin-bottom: 100px; }
   .contact-container div {
     margin-bottom: 60px; }
-
-.router-buttons {
-  margin-top: 10px;
-  margin-bottom: -40px; }
-  .router-buttons div {
-    margin: 0 10px;
-    float: none;
-    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
