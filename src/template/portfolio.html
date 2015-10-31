@@ -2,11 +2,8 @@
 	<div class="container">
 		<div *ng-for="#project of projects.projects">
 			<div class="col m12 portfolio-center">
-				<h1>{{project.title}}</h1>
-			</div>
-			<div class="col m12 l2">
-				<img class="img-circle z-depth-2" src="{{project.icon}}" width="130" height="130">
-			</div>
+				<h1>{{project.title}}</h1></div>
+			<div class="col m12 l2 portfolio-xs-align"><img class="img-circle circle-xs-align circle-sm-align shadow-z-2" src="{{project.icon}}" width="130" height="130"></div>
 			<div class="col m12 l6">
 				{{project.description}}
 			</div>
