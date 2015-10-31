@@ -83,4 +83,12 @@ hr {
   .contact-container div {
     margin-bottom: 60px; }
 
+.router-buttons {
+  margin-top: 10px;
+  margin-bottom: -40px; }
+  .router-buttons div {
+    margin: 0 10px;
+    float: none;
+    display: inline-block; }
+
 /*# sourceMappingURL=style.css.map */

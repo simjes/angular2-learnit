@@ -25,7 +25,7 @@ var App = (function () {
             selector: 'my-app'
         }),
         angular2_1.View({
-            template: "\n    <nav class=\"navbar navbar-fixed-top navbar-material-teal shadow-z-1 center\">\n        <div class=\"navbar-header\">\n            <a class=\"navbar-brand\" href=\"#\">SIMJES</a>\n            <!--<ul class=\"nav navbar-nav\">\n                <li><a [router-link]=\"['/Home']\">HOME</a></li>\n                <li><a [router-link]=\"['/Portfolio']\">PORTFOLIO</a></li>\n                <li><a [router-link]=\"['/Contact']\">CONTACT</a></li>\n            </ul>-->\n        </div>\n    </nav>\n    <router-outlet></router-outlet>\n    <footer class=\"navbar navbar-fixed-bottom\">\n        <p>&copy; Simon Jespersen 2015</p>\n    </footer>",
+            template: "\n    <nav class=\"navbar navbar-fixed-top navbar-material-teal shadow-z-1\">\n        <div class=\"navbar-header\">\n            <a class=\"navbar-brand\" href=\"#\">SIMJES</a>\n            <div class=\"router-buttons\">\n                <div class=\"img-circle shadow-z-2\"><a [router-link]=\"['/Home']\"><img src=\"img/home.svg\" height=\"50\" width=\"50\"></a></div>\n                <div class=\"img-circle shadow-z-2\"><a [router-link]=\"['/Portfolio']\"><img src=\"img/portfolio.svg\" height=\"50\" width=\"50\"></a></div>\n                <div class=\"img-circle shadow-z-2\"><a [router-link]=\"['/Contact']\"><img src=\"img/contact.svg\" height=\"50\" width=\"50\"></a></div>\n            </div>\n        </div>\n    </nav>\n    <router-outlet></router-outlet>\n    <footer class=\"navbar navbar-fixed-bottom\">\n        <p>&copy; Simon Jespersen 2015</p>\n    </footer>",
             directives: [router_1.ROUTER_DIRECTIVES]
         }),
         router_1.RouteConfig([

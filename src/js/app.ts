@@ -13,14 +13,14 @@ import {Contact} from './contact'
 })
 @View({
     template: `
-    <nav class="navbar navbar-fixed-top navbar-material-teal shadow-z-1 center">
+    <nav class="navbar navbar-fixed-top navbar-material-teal shadow-z-1">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">SIMJES</a>
-            <!--<ul class="nav navbar-nav">
-                <li><a [router-link]="['/Home']">HOME</a></li>
-                <li><a [router-link]="['/Portfolio']">PORTFOLIO</a></li>
-                <li><a [router-link]="['/Contact']">CONTACT</a></li>
-            </ul>-->
+            <div class="router-buttons">
+                <div class="img-circle shadow-z-2"><a [router-link]="['/Home']"><img src="img/home.svg" height="50" width="50"></a></div>
+                <div class="img-circle shadow-z-2"><a [router-link]="['/Portfolio']"><img src="img/portfolio.svg" height="50" width="50"></a></div>
+                <div class="img-circle shadow-z-2"><a [router-link]="['/Contact']"><img src="img/contact.svg" height="50" width="50"></a></div>
+            </div>
         </div>
     </nav>
     <router-outlet></router-outlet>
