@@ -1,13 +1,12 @@
 <div id="page-cont">
 	<div class="container">
-		<button (click)="click()">lel</button>
 		<div *ng-for="#project of projects.projects">
 			<div class="card hoverable">
 				<div class="card-image">
 					<div class="slider">
 						<ul class="slides">
 							<li>
-								<img class="img-box" [src]="project.pictures.img_1">
+								<img  class="img-box" [src]="project.pictures.img_1">
 							</li>
 							<li>
 								<img class="img-box" [src]="project.pictures.img_2">
