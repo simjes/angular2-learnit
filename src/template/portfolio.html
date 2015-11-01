@@ -1,32 +1,40 @@
 <div id="page-cont">
 	<div class="container">
 		<div *ng-for="#project of projects.projects">
-			<div class="col m12 portfolio-center">
-				<h1>{{project.title}}</h1></div>
-			<div class="col m12 l2 portfolio-xs-align"><img class="img-circle circle-xs-align circle-sm-align z-depth-2" src="{{project.icon}}" width="130" height="130"></div>
-			<div class="col m12 l6">
-				{{project.description}}
-			</div>
-			<div class="col m12 l4">
-				<div class="img-container">
-					<div class="col m4 l3 img-box z-depth-2" *ng-if="project.thumbs.img_1" [ng-style]="{'background-image': 'url(' + project.thumbs.img_1 + ')'}"></div>
-					<div class="col m4 l3 img-box z-depth-2" *ng-if="project.thumbs.img_2" [ng-style]="{'background-image': 'url(' + project.thumbs.img_2 + ')'}"></div>
-					<div class="col m4 l3 img-box z-depth-2" *ng-if="project.thumbs.img_3" [ng-style]="{'background-image': 'url(' + project.thumbs.img_3 + ')'}"></div>
-					<!--<div class="row visible-xs-block"></div>-->
-					<div class="col m4 l3 img-box z-depth-2" *ng-if="project.thumbs.img_4" [ng-style]="{'background-image': 'url(' + project.thumbs.img_4 + ')'}"></div>
-					<div class="col m4 l3 img-box z-depth-2" *ng-if="project.thumbs.img_5" [ng-style]="{'background-image': 'url(' + project.thumbs.img_5 + ')'}"></div>
-					<div class="col m4 l3 img-box z-depth-2" *ng-if="project.thumbs.img_6" [ng-style]="{'background-image': 'url(' + project.thumbs.img_6 + ')'}"></div>
-					<!--<div class="row"></div>-->
-					<div class="col m12 portfolio-center">
-						<span *ng-if="project.links.code">| <a href="{{project.links.code}}" target="_blank">Source code</a> |</span>
-						<span *ng-if="project.links.youtube">| <a href="{{project.links.youtube}}" target="_blank">Youtube</a> |</span>
-						<span *ng-if="project.links.app_store">| <a href="{{project.links.app_store}}" target="_blank">App store</a> |</span>
-						<span *ng-if="project.links.play_store">| <a href="{{project.links.play_store}}" target="_blank">Google Play</a> |</span>
+			<div class="card-panel hoverable">
+				<div class="row">
+					<div class="col s12 center-align">
+						<h1>{{project.title}}</h1>
 					</div>
 				</div>
-			</div>
-			<div class="col m12">
-				<hr>
+				<div class="row">
+					<div class="col s12 m2 portfolio-xs-align">
+						<img class="img-circle circle-xs-align circle-sm-align z-depth-2" src="{{project.icon}}" width="130" height="130">
+					</div>
+					<div class="col s12 m5">
+						{{project.description}}
+					</div>
+					<div class="col s12 m5">
+						<div class="row">
+							<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_1" [ng-style]="{'background-image': 'url(' + project.thumbs.img_1 + ')'}"></div>
+							<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_2" [ng-style]="{'background-image': 'url(' + project.thumbs.img_2 + ')'}"></div>
+							<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_3" [ng-style]="{'background-image': 'url(' + project.thumbs.img_3 + ')'}"></div>
+
+							<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_4" [ng-style]="{'background-image': 'url(' + project.thumbs.img_4 + ')'}"></div>
+							<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_5" [ng-style]="{'background-image': 'url(' + project.thumbs.img_5 + ')'}"></div>
+							<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_6" [ng-style]="{'background-image': 'url(' + project.thumbs.img_6 + ')'}"></div>
+
+						</div>
+						<!--<div class="row">
+						<div class="col s12 center-align">
+							<span *ng-if="project.links.code">| <a href="{{project.links.code}}" target="_blank">Source code</a> |</span>
+							<span *ng-if="project.links.youtube">| <a href="{{project.links.youtube}}" target="_blank">Youtube</a> |</span>
+							<span *ng-if="project.links.app_store">| <a href="{{project.links.app_store}}" target="_blank">App store</a> |</span>
+							<span *ng-if="project.links.play_store">| <a href="{{project.links.play_store}}" target="_blank">Google Play</a> |</span>
+						</div>
+					</div> -->
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

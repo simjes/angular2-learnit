@@ -32,7 +32,8 @@ footer {
   background-image: url('../img/stock-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  //fix height
+  height: 95vh;
   text-align: center;
   color: $primary-text-color;
   
@@ -73,8 +74,8 @@ footer {
 //============= old code
 
 #page-cont {
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   color: $primary-material-text;
   
   a:link,
@@ -91,10 +92,6 @@ footer {
   h1 {
     color: $secondary-text-color;
   }
-}
-
-.portfolio-center {
-  text-align: center;
 }
 
 hr {
@@ -134,6 +131,8 @@ hr {
   margin: 6px;
   height: 90px;
   width: 90px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img-container {
