@@ -13,7 +13,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 /// <reference path="../../node_modules/angular2/http.d.ts" />
 var angular2_1 = require('angular2/angular2');
 var http_1 = require('angular2/http');
-var inited = false;
 var Portfolio = (function () {
     function Portfolio(http, elementRef) {
         var _this = this;

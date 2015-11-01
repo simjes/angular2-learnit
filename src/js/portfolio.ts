@@ -4,7 +4,6 @@ import {Component, View, NgFor, NgIf, ElementRef} from 'angular2/angular2';
 import {Http, HTTP_PROVIDERS} from 'angular2/http';
 
 declare var jQuery: any;
-let inited: boolean = false;
 
 @Component({
     selector: 'portfolio',
