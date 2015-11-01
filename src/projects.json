@@ -12,14 +12,6 @@
                 "img_5": "img/project_img/streemer/streemer_picture5.png",
                 "img_6": "img/project_img/streemer/streemer_picture6.png"
             },
-            "thumbs": {
-                "img_1": "img/project_img/streemer/streemer_thumb.png",
-                "img_2": "img/project_img/streemer/streemer_thumb2.png",
-                "img_3": "img/project_img/streemer/streemer_thumb3.png",
-                "img_4": "img/project_img/streemer/streemer_thumb4.png",
-                "img_5": "img/project_img/streemer/streemer_thumb5.png",
-                "img_6": "img/project_img/streemer/streemer_thumb6.png"
-            },
             "links": {
                 "code": "",
                 "youtube": "",
@@ -32,14 +24,6 @@
             "description": "Cross-platform application that lets you read comic books(.cbr and .cbz format) from your cloud storage. This project is done with Ionic+Cordova.",
             "icon": "img/cloudcomics.svg",
             "pictures": {
-                "img_1": "",
-                "img_2": "",
-                "img_3": "",
-                "img_4": "",
-                "img_5": "",
-                "img_6": ""
-            },
-            "thumbs": {
                 "img_1": "",
                 "img_2": "",
                 "img_3": "",
@@ -66,14 +50,6 @@
                 "img_5": "img/project_img/simcv/simcv_picture5.png",
                 "img_6": "img/project_img/simcv/simcv_picture6.png"
             },
-            "thumbs": {
-                "img_1": "img/project_img/simcv/simcv_thumb.png",
-                "img_2": "img/project_img/simcv/simcv_thumb2.png",
-                "img_3": "img/project_img/simcv/simcv_thumb3.png",
-                "img_4": "img/project_img/simcv/simcv_thumb4.png",
-                "img_5": "img/project_img/simcv/simcv_thumb5.png",
-                "img_6": "img/project_img/simcv/simcv_thumb6.png"
-            },
             "links": {
                 "code": "https://github.com/simjes/OpenCV-Bachelor",
                 "youtube": "https://www.youtube.com/watch?v=oCViAhgrZn0",
@@ -92,14 +68,6 @@
                 "img_4": "img/project_img/shoplist/shoplist_picture4.png",
                 "img_5": "img/project_img/shoplist/shoplist_picture5.png",
                 "img_6": "img/project_img/shoplist/shoplist_picture6.png"
-            },
-            "thumbs": {
-                "img_1": "img/project_img/shoplist/shoplist_thumb.png",
-                "img_2": "img/project_img/shoplist/shoplist_thumb2.png",
-                "img_3": "img/project_img/shoplist/shoplist_thumb3.png",
-                "img_4": "img/project_img/shoplist/shoplist_thumb4.png",
-                "img_5": "img/project_img/shoplist/shoplist_thumb5.png",
-                "img_6": "img/project_img/shoplist/shoplist_thumb6.png"
             },
             "links": {
                 "code": "https://github.com/simjes/ShopList",
@@ -120,14 +88,6 @@
                 "img_5": "img/project_img/firestorm/firestorm_picture5.jpg",
                 "img_6": "img/project_img/firestorm/firestorm_picture6.jpg"
             },
-            "thumbs": {
-                "img_1": "img/project_img/firestorm/firestorm_thumb.jpg",
-                "img_2": "img/project_img/firestorm/firestorm_thumb2.jpg",
-                "img_3": "img/project_img/firestorm/firestorm_thumb3.jpg",
-                "img_4": "img/project_img/firestorm/firestorm_thumb4.jpg",
-                "img_5": "img/project_img/firestorm/firestorm_thumb5.jpg",
-                "img_6": "img/project_img/firestorm/firestorm_thumb6.jpg"
-            },
             "links": {
                 "code": "https://github.com/simjes/Firestorm",
                 "youtube": "https://www.youtube.com/watch?v=aHwYtt6lNsw",
@@ -140,14 +100,6 @@
             "description": "Copies and sorts all the pictures in the Windows picture folder into a new folder. Pictures are sorted by date. Goal of this project is to learn C#. Still has some bugs and features missing.",
             "icon": "img/picturesort.svg",
             "pictures": {
-                "img_1": "",
-                "img_2": "",
-                "img_3": "",
-                "img_4": "",
-                "img_5": "",
-                "img_6": ""
-            },
-            "thumbs": {
                 "img_1": "",
                 "img_2": "",
                 "img_3": "",
