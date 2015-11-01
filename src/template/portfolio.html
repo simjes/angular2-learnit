@@ -1,37 +1,43 @@
 <div id="page-cont">
 	<div class="container">
+		<button onclick=" $(document).ready(function(){
+      $('.slider').slider();
+    });">lel</button>
 		<div *ng-for="#project of projects.projects">
 			<div class="card hoverable">
-				<div class="card-content">
+				<div class="card-image">
+					<div class="slider">
+						<ul class="slides">
+							<li>
+								<img [src]="project.pictures.img_1">
+							</li>
+							<li>
+								<img [src]="project.pictures.img_2">
+							</li>
+							<li>
+								<img [src]="project.pictures.img_3">
+							</li>
+							<li>
+								<img [src]="project.pictures.img_4">
+							</li>
+							<li>
+								<img [src]="project.pictures.img_5">
+							</li>
+							<li>
+								<img [src]="project.pictures.img_6">
+							</li>
+						</ul>
+					</div>
 					<span class="card-title black-text">{{project.title}}</span>
+				</div>
+
+				<div class="card-content">
 					<div class="row">
-						<div class="col s12 m4">
-							<div class="row center">
-								<img class="circle z-depth-1 responsive-img" src="{{project.icon}}" width="130" height="130">
-							</div>
-							{{project.description}}
+						<div class="col s12 m2 center">
+							<img class="circle z-depth-1 responsive-img" src="{{project.icon}}" width="130" height="130">
 						</div>
-						<div class="col s12 m8">
-							<div class="row">
-								<div class="col s6 m4 l2 z-depth-1" *ng-if="project.pictures.img_1">
-									<img class="materialboxed responsive-img" [src]="project.pictures.img_1">
-								</div>
-								<div class="col s6 m4 l2 z-depth-1" *ng-if="project.pictures.img_2">
-									<img class="materialboxed responsive-img" [src]="project.pictures.img_2">
-								</div>
-								<div class="col s6 m4 l2 z-depth-1" *ng-if="project.pictures.img_3">
-									<img class="materialboxed responsive-img" [src]="project.pictures.img_3">
-								</div>
-								<div class="col s6 m4 l2  z-depth-1" *ng-if="project.pictures.img_4">
-									<img class="materialboxed responsive-img" [src]="project.pictures.img_4">
-								</div>
-								<div class="col s6 m4 l2 z-depth-1" *ng-if="project.pictures.img_5">
-									<img class="materialboxed responsive-img" [src]="project.pictures.img_5">
-								</div>
-								<div class="col s6 m4 l2 z-depth-1" *ng-if="project.pictures.img_6">
-									<img class="materialboxed responsive-img" [src]="project.pictures.img_6">
-								</div>
-							</div>
+						<div class="col s12 m10">
+							{{project.description}}
 						</div>
 					</div>
 				</div>
