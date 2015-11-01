@@ -86,49 +86,11 @@ footer {
   
   a:hover {
     color: $primary-design-color;
-    text-decoration: underline;
-  }
-  
-  h1 {
-    color: $secondary-text-color;
-  }
-}
-
-hr {
-  border-color: $hairline-color;
-  background-color: $hairline-color;
-  color: $hairline-color;
-}
-
-.portfolio-align {
-    text-align: center;
- }
-
-@media (max-width: 768px) {
-  .portfolio-xs-align {
-    text-align: center;
-    display: inline-block;
-    float: none;
-  }
-  
-  .circle-xs-align {
-    display: block;
-    margin: 10px auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .circle-sm-align {
-    float: right;
-    margin-top: 50px;
-    margin-bottom: 10px;
   }
 }
 
 .img-box {
-  display : inline-block; 
-  float: none;
-  margin: 6px;
+  margin: 7px;
   height: 90px;
   width: 90px;
   background-repeat: no-repeat;

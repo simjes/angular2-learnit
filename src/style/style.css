@@ -53,37 +53,10 @@ footer {
   #page-cont a:active {
     color: #000000; }
   #page-cont a:hover {
-    color: #009688;
-    text-decoration: underline; }
-  #page-cont h1 {
-    color: #000000; }
+    color: #009688; }
 
-hr {
-  border-color: rgba(0, 0, 0, 0.12);
-  background-color: rgba(0, 0, 0, 0.12);
-  color: rgba(0, 0, 0, 0.12); }
-
-.portfolio-align {
-  text-align: center; }
-
-@media (max-width: 768px) {
-  .portfolio-xs-align {
-    text-align: center;
-    display: inline-block;
-    float: none; }
-
-  .circle-xs-align {
-    display: block;
-    margin: 10px auto; } }
-@media (min-width: 768px) {
-  .circle-sm-align {
-    float: right;
-    margin-top: 50px;
-    margin-bottom: 10px; } }
 .img-box {
-  display: inline-block;
-  float: none;
-  margin: 6px;
+  margin: 7px;
   height: 90px;
   width: 90px;
   background-repeat: no-repeat;

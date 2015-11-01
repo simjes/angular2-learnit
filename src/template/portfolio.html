@@ -6,21 +6,20 @@
 					<span class="card-title black-text">{{project.title}}</span>
 					<div class="row">
 						<div class="col s12 m3 center">
-							<img class="circle z-depth-2 responsive-img" src="{{project.icon}}" width="130" height="130">
+							<img class="circle z-depth-1 responsive-img" src="{{project.icon}}" width="130" height="130">
 						</div>
 						<div class="col s12 m4">
 							{{project.description}}
 						</div>
 						<div class="col s12 m5">
 							<div class="row">
-								<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_1" [ng-style]="{'background-image': 'url(' + project.thumbs.img_1 + ')'}"></div>
-								<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_2" [ng-style]="{'background-image': 'url(' + project.thumbs.img_2 + ')'}"></div>
-								<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_3" [ng-style]="{'background-image': 'url(' + project.thumbs.img_3 + ')'}"></div>
+								<div class="col s4 m3 offset-s2 offset-m1 img-box z-depth-1" *ng-if="project.thumbs.img_1" [ng-style]="{'background-image': 'url(' + project.thumbs.img_1 + ')'}"></div>
+								<div class="col s4 m3 img-box z-depth-1" *ng-if="project.thumbs.img_2" [ng-style]="{'background-image': 'url(' + project.thumbs.img_2 + ')'}"></div>
+								<div class="col s4 m3 offset-s2 img-box z-depth-1" *ng-if="project.thumbs.img_3" [ng-style]="{'background-image': 'url(' + project.thumbs.img_3 + ')'}"></div>
 
-								<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_4" [ng-style]="{'background-image': 'url(' + project.thumbs.img_4 + ')'}"></div>
-								<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_5" [ng-style]="{'background-image': 'url(' + project.thumbs.img_5 + ')'}"></div>
-								<div class="col s4 m3 img-box z-depth-2" *ng-if="project.thumbs.img_6" [ng-style]="{'background-image': 'url(' + project.thumbs.img_6 + ')'}"></div>
-
+								<div class="col s4 m3 offset-m1 img-box z-depth-1" *ng-if="project.thumbs.img_4" [ng-style]="{'background-image': 'url(' + project.thumbs.img_4 + ')'}"></div>
+								<div class="col s4 m3 offset-s2 img-box z-depth-1" *ng-if="project.thumbs.img_5" [ng-style]="{'background-image': 'url(' + project.thumbs.img_5 + ')'}"></div>
+								<div class="col s4 m3 img-box z-depth-1" *ng-if="project.thumbs.img_6" [ng-style]="{'background-image': 'url(' + project.thumbs.img_6 + ')'}"></div>
 							</div>
 						</div>
 					</div>
