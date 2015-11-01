@@ -1,6 +1,6 @@
 <div id="page-cont">
 	<div class="container">
-		<button onclick=" $(document).ready(function(){
+		<button onclick="$(document).ready(function(){
       $('.slider').slider();
     });">lel</button>
 		<div *ng-for="#project of projects.projects">
@@ -9,22 +9,22 @@
 					<div class="slider">
 						<ul class="slides">
 							<li>
-								<img [src]="project.pictures.img_1">
+								<img class="img-box" [src]="project.pictures.img_1">
 							</li>
 							<li>
-								<img [src]="project.pictures.img_2">
+								<img class="img-box" [src]="project.pictures.img_2">
+							</li>
+							<li> 
+								<img class="img-box" [src]="project.pictures.img_3">
 							</li>
 							<li>
-								<img [src]="project.pictures.img_3">
+								<img class="img-box" [src]="project.pictures.img_4">
 							</li>
 							<li>
-								<img [src]="project.pictures.img_4">
+								<img class="img-box" [src]="project.pictures.img_5">
 							</li>
 							<li>
-								<img [src]="project.pictures.img_5">
-							</li>
-							<li>
-								<img [src]="project.pictures.img_6">
+								<img class="img-box" [src]="project.pictures.img_6">
 							</li>
 						</ul>
 					</div>
@@ -36,7 +36,7 @@
 						<div class="col s12 m2 center">
 							<img class="circle z-depth-1 responsive-img" src="{{project.icon}}" width="130" height="130">
 						</div>
-						<div class="col s12 m10">
+						<div id="leltst" class="col s12 m10">
 							{{project.description}}
 						</div>
 					</div>

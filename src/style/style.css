@@ -56,8 +56,6 @@ footer {
     color: #009688; }
 
 .img-box {
-  margin: 7px;
-  height: 90px;
-  width: 90px; }
+  max-width: 50%; }
 
 /*# sourceMappingURL=style.css.map */
