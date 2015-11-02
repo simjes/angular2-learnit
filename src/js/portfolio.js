@@ -24,7 +24,6 @@ var Portfolio = (function () {
     Portfolio.prototype.isNotEmpty = function (jsonArray) {
         for (var el in jsonArray) {
             if (jsonArray[el] != "") {
-                console.log(jsonArray[el]);
                 return true;
             }
         }

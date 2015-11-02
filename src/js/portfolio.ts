@@ -25,7 +25,6 @@ export class Portfolio {
     isNotEmpty(jsonArray: any) {
         for (var el in jsonArray) {
             if (jsonArray[el] != "") {
-                console.log(jsonArray[el]);
                 return true;
             }
         }
