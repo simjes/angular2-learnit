@@ -14,18 +14,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var angular2_1 = require('angular2/angular2');
 var http_1 = require('angular2/http');
 var Portfolio = (function () {
-    function Portfolio(http, elementRef) {
+    function Portfolio(http) {
         var _this = this;
-        this.elementRef = elementRef;
         this.projects = [];
         http.get('projects.json')
             .map(function (res) { return res.json(); })
             .subscribe(function (projects) { return _this.projects = projects; });
     }
-    Portfolio.prototype.tst = function () {
-        jQuery(this.elementRef.nativeElement).find('.slider').slider();
-        console.log('fc');
-    };
     Portfolio = __decorate([
         angular2_1.Component({
             selector: 'portfolio',
@@ -35,7 +30,7 @@ var Portfolio = (function () {
             templateUrl: './template/portfolio.html',
             directives: [angular2_1.NgFor, angular2_1.NgIf]
         }), 
-        __metadata('design:paramtypes', [http_1.Http, angular2_1.ElementRef])
+        __metadata('design:paramtypes', [http_1.Http])
     ], Portfolio);
     return Portfolio;
 })();
