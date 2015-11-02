@@ -25,7 +25,7 @@
 						<img class="img-box" [src]="project.pictures.img_6">
 					</div>
 				</div>
-				<div class="card-action center">
+				<div class="card-action center" *ng-if="isNotEmpty(project.links)">
 					<span *ng-if="project.links.code"><a href="{{project.links.code}}" target="_blank">Source code</a></span>
 					<span *ng-if="project.links.youtube"><a href="{{project.links.youtube}}" target="_blank">Youtube</a></span>
 					<span *ng-if="project.links.app_store"><a href="{{project.links.app_store}}" target="_blank">App store</a></span>

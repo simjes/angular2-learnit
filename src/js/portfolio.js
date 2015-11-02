@@ -21,6 +21,15 @@ var Portfolio = (function () {
             .map(function (res) { return res.json(); })
             .subscribe(function (projects) { return _this.projects = projects; });
     }
+    Portfolio.prototype.isNotEmpty = function (jsonArray) {
+        for (var el in jsonArray) {
+            if (jsonArray[el] != "") {
+                console.log(jsonArray[el]);
+                return true;
+            }
+        }
+        return false;
+    };
     Portfolio = __decorate([
         angular2_1.Component({
             selector: 'portfolio',

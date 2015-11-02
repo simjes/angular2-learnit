@@ -21,4 +21,14 @@ export class Portfolio {
             .map(res => res.json())
             .subscribe(projects => this.projects = projects);
     }
+
+    isNotEmpty(jsonArray: any) {
+        for (var el in jsonArray) {
+            if (jsonArray[el] != "") {
+                console.log(jsonArray[el]);
+                return true;
+            }
+        }
+        return false;
+    }
 }
