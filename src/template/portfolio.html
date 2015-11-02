@@ -3,7 +3,7 @@
 		<div *ng-for="#project of projects.projects">
 			<div class="card hoverable">
 				<div class="card-image">
-					<img class="img-box" [src]="project.pictures.img_1"  width="5000" height="200">
+					<img class="img-box" [src]="project.pictures.img_1" width="5000" height="200">
 					<!--<div class="slider">
 						<ul class="slides">
 							<li>
@@ -37,6 +37,14 @@
 						<div class="col s12 m10">
 							{{project.description}}
 						</div>
+					</div>
+					<div class="row center">
+						<img class="img-box" [src]="project.pictures.img_1" width="50" height="50">
+						<img class="img-box" [src]="project.pictures.img_2" width="50" height="50">
+						<img class="img-box" [src]="project.pictures.img_3" width="50" height="50">
+						<img class="img-box" [src]="project.pictures.img_4" width="50" height="50">
+						<img class="img-box" [src]="project.pictures.img_5" width="50" height="50">
+						<img class="img-box" [src]="project.pictures.img_6" width="50" height="50">
 					</div>
 				</div>
 				<div class="card-action center">
