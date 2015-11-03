@@ -13,13 +13,44 @@
 							{{project.description}}
 						</div>
 					</div>
-					<div *ng-if="isNotEmpty(project.pictures)" class="row center">
-						<img class="img-box" [src]="project.pictures.img_1">
-						<img class="img-box" [src]="project.pictures.img_2">
-						<img class="img-box" [src]="project.pictures.img_3">
-						<img class="img-box" [src]="project.pictures.img_4">
-						<img class="img-box" [src]="project.pictures.img_5">
-						<img class="img-box" [src]="project.pictures.img_6">
+					<!-- dynamic number of images -->
+					<div *ng-if="isNotEmpty(project.pictures)" class="row center gallery">
+						<a href="#{{project.title}}1">
+							<img class="img-box" [src]="project.pictures.img_1">
+						</a>
+						<a href="#/Portfolio" class="lightbox" id="{{project.title}}1">
+							<img class="img-box" [src]="project.pictures.img_1">
+						</a>
+						<a href="#{{project.title}}2">
+							<img class="img-box" [src]="project.pictures.img_2">
+						</a>
+						<a href="#/Portfolio" class="lightbox" id="{{project.title}}2">
+							<img class="img-box" [src]="project.pictures.img_2">
+						</a>
+						<a href="#{{project.title}}3">
+							<img class="img-box" [src]="project.pictures.img_3">
+						</a>
+						<a href="#/Portfolio" class="lightbox" id="{{project.title}}3">
+							<img class="img-box" [src]="project.pictures.img_3">
+						</a>
+						<a href="#{{project.title}}4">
+							<img class="img-box" [src]="project.pictures.img_4">
+						</a>
+						<a href="#/Portfolio" class="lightbox" id="{{project.title}}4">
+							<img class="img-box" [src]="project.pictures.img_4">
+						</a>
+						<a href="#{{project.title}}5">
+							<img class="img-box" [src]="project.pictures.img_5">
+						</a>
+						<a href="#/Portfolio" class="lightbox" id="{{project.title}}5">
+							<img class="img-box" [src]="project.pictures.img_5">
+						</a>
+						<a href="#{{project.title}}6">
+							<img class="img-box" [src]="project.pictures.img_6">
+						</a>
+						<a href="#/Portfolio" class="lightbox" id="{{project.title}}6">
+							<img class="img-box" [src]="project.pictures.img_6">
+						</a>
 					</div>
 				</div>
 				<div class="card-action center" *ng-if="isNotEmpty(project.links)">
